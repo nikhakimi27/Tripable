@@ -130,7 +130,7 @@ android {
 
     defaultConfig {
         applicationId "com.tripable"
-        minSdkVersion rootProject.ext.minSdkVersion
+        minSdkVersion 21
         targetSdkVersion rootProject.ext.targetSdkVersion
         buildToolsVersion "28.0.3"
         versionCode 1

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { ImageBackground, StyleSheet, View, Image, TouchableOpacity, Text } from "react-native";
-import COLORS from 'D:\FSKTM\FYP\Tripable\src\const\color.js';
+import COLORS from './const/color';
 
 function HomeScreen(props) {
   return (

@@ -4,7 +4,7 @@ import { Button, StatusBar, View, Text, StyleSheet, ScrollView, Image, Platform,
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import COLORS from './const/color';
 import { FlatList, TextInput } from 'react-native-gesture-handler';
-import place from './const/places'
+import places from './const/places';
 
 // const {width} = Dimensions.get("screen");
 
@@ -16,19 +16,19 @@ function AttractionsScreen({ route, navigation }) {
     <Icon name="near-me" size={25} color= {COLORS.tertiary} />,
     <Icon name="place" size={25} color= {COLORS.tertiary} />,
   ];
-  // const ListCategories = () => {
-  //   return <View style={styles.categoryContainer}>
-  //     {categoryIcons.map((icon,index) => (
-  //       <View key={index} style = {styles.iconContainer}>
-  //         {icon}
-  //       </View>
-  //     ))}
-  //   </View>
-  // };
+  const ListCategories = () => {
+    return <View style={styles.categoryContainer}>
+      {categoryIcons.map((icon,index) => (
+        <View key={index} style = {styles.iconContainer}>
+          {icon}
+        </View>
+      ))}
+    </View>
+  };
 
-  // const Card = ({place}) => {
-  //   return <ImageBackground style={styles.cardImage}></ImageBackground>
-  // };
+  const Card = ({place}) => {
+    return <ImageBackground style={styles.cardImage}></ImageBackground>
+  };
 
 
     return (
@@ -118,7 +118,6 @@ function AttractionsScreen({ route, navigation }) {
     },
     cardImage: {
       height: 220,
-      width: width/2,
     }
   });
   

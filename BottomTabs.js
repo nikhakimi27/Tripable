@@ -6,7 +6,7 @@ import AttractionsStackScreen from './src/AttractionsStackScreen';
 import MapStackScreen from './src/MapStackScreen';
 import SettingsStackScreen from './src/SettingsStackScreen';
 import TransportStackScreen from './src/TransportStackScreen';
-import COLORS from 'D:\FSKTM\FYP\Tripable\src\const\color.js';
+import COLORS from './src/const/color';
 
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
