@@ -176,7 +176,7 @@ const styles = StyleSheet.create({
     color: "#121212",
     fontSize: 20,
     textAlign: "center",
-    width: 80,
+    width: 90,
     marginLeft: 18,
     marginTop: 5,
     fontWeight: 'bold'

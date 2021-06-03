@@ -1,6 +1,8 @@
 import React from 'react';
 
 import AttractionsScreen from './AttractionsScreen';
+import DetailsScreen from './DetailsScreen';
+
 
 import { createStackNavigator } from '@react-navigation/stack';
 
@@ -10,6 +12,7 @@ function AttractionsStackScreen() {
     return (
       <AttractionsStack.Navigator>
         <AttractionsStack.Screen name="Attractions" component={AttractionsScreen}/>
+        <AttractionsStack.Screen name="Details" component={DetailsScreen}/>
       </AttractionsStack.Navigator>
     )
   }
