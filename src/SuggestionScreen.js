@@ -1,8 +1,7 @@
 import React from 'react';
 import { Button, View, Text, StyleSheet, Image, Platform, TouchableOpacity, ActivityIndicator } from 'react-native';
-import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete';
 
-function SettingsScreen({ route, navigation }) {
+function SuggestionScreen({ route, navigation }) {
   return (
     <View style={styles.container}>
     </View>
@@ -18,4 +17,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default SettingsScreen;
+export default SuggestionScreen;
